@@ -1,0 +1,36 @@
+{
+	"packageName": "HyperVolt EV Charger",
+	"author": "Andy 'Bob' Brockhurst",
+	"minimumHEVersion": "0.0.1",
+	"licenseFile": "https://raw.githubusercontent.com/b3cft/hubitat-hypervolt-charger/main/LICENSE",
+	"releaseNotes": "Please check: https://github.com/b3cft/hubitat-hypervolt-charger/commits/main",
+	"documentationLink": "https://github.com/b3cft/hubitat-hypervolt-charger/tree/main",
+	"dateReleased": "2023-07-24",
+	"bundles": [ ],
+	"drivers": [
+		{
+			"id": "3e2eee7f-814d-432f-8f8f-7f29b71a48d3",
+			"name": "HyperVolt Controller",
+			"namespace": "b3cft",
+			"location": "https://raw.githubusercontent.com/b3cft/hubitat-hypervolt-charger/main/drivers/controller.groovy",
+			"required": true,
+			"version": "0.0.1"
+		},
+		{
+			"id": "4485a33b-b6e4-4576-a354-c906baa800e1",
+			"name": "HyperVolt Charger",
+			"namespace": "b3cft",
+			"location": "https://raw.githubusercontent.com/b3cft/hubitat-hypervolt-charger/main/drivers/charger.groovy",
+			"required": true,
+			"version": "0.0.1"
+		},
+		{
+			"id": "8ca2fde4-e339-4611-af60-6beca7f88e71",
+			"name": "HyperVolt Monitor",
+			"namespace": "b3cft",
+			"location": "https://raw.githubusercontent.com/b3cft/hubitat-hypervolt-charger/main/drivers/monitor.groovy",
+			"required": true,
+			"version": "0.0.1"
+		}
+	]
+}
